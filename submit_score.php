@@ -30,5 +30,7 @@ if(!empty($_REQUEST['name']) && !empty($_REQUEST['score']))
 	} else {
 		echo "error #3";
 	}
+} else {
+	echo "invalid parameters";
 }
 ?>
